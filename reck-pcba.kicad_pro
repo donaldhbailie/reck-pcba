@@ -426,8 +426,13 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "reck-ics"
+    ],
+    "pinned_symbol_libs": [
+      "reck-ics",
+      "reck-connectors"
+    ]
   },
   "meta": {
     "filename": "reck-pcba.kicad_pro",
@@ -472,7 +477,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "lib/hive-template.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -561,7 +566,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "libraries\\hive-template.kicad_wks",
+    "page_layout_descr_file": "lib\\hive-template.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
