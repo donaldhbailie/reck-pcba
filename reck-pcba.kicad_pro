@@ -427,11 +427,14 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "reck-ics"
+      "reck-ics",
+      "reck-switches",
+      "reck-connectors"
     ],
     "pinned_symbol_libs": [
       "reck-ics",
-      "reck-connectors"
+      "reck-connectors",
+      "reck-switches"
     ]
   },
   "meta": {
@@ -581,6 +584,10 @@
     [
       "7f074093-5734-4802-8e36-6d949e268651",
       "Root"
+    ],
+    [
+      "59ba9f24-b437-426c-8aa6-a051492f5afe",
+      "power"
     ]
   ],
   "text_variables": {}
