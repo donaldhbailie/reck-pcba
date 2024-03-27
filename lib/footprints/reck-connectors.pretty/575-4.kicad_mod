@@ -1,0 +1,96 @@
+(footprint "575-4"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.806315 -5.023165 0)
+		(layer "F.SilkS")
+		(uuid "91486866-d365-4557-87f1-8892e08ada9a")
+		(effects
+			(font
+				(size 1.00163 1.00163)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "575-4"
+		(at 6.22682 5.220685 0)
+		(layer "F.Fab")
+		(uuid "55393394-23e0-4342-9593-9bb21a1b5422")
+		(effects
+			(font
+				(size 1.001094 1.001094)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e71cbc9-f806-43bc-9fe4-c3b1724c9d1a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dec241af-1280-460a-8bdc-e9596ef349f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84b354f3-1099-4268-a68e-f1c5e6d16a23")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 4.2 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "0393d99a-c096-48f7-9fda-72f22dcee935")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 7.9 7.9)
+		(drill 5.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7e16df75-ad93-459a-b384-207485435337")
+	)
+	(model "${KIPRJMOD}/lib/3dmodels/reck-connectors.3dshapes/575-4.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

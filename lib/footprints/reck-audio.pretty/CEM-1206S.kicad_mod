@@ -1,0 +1,149 @@
+(footprint "CEM-1206S"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.37706 -7.57592 0)
+		(layer "F.SilkS")
+		(uuid "f7e65957-31ec-4458-87cc-1ed7a340bd8d")
+		(effects
+			(font
+				(size 1.005433 1.005433)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CUI_CEM-1206S"
+		(at 4.97662 7.29667 0)
+		(layer "F.Fab")
+		(uuid "06119a34-4613-4984-8ef6-486db29346b0")
+		(effects
+			(font
+				(size 1.004362 1.004362)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "edd2595e-5a58-428a-8fb1-60a45fa5e188")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7c0221f-d891-48b3-933f-d00b3154d716")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19db16af-346b-4ce2-9628-b316c89644b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2f70a275-01bc-4961-8b15-651a96087238")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8c3871d6-e9bd-46e8-9b1a-81449afd8f25")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "493d48e8-b876-4234-bf0d-f5b4d476a351")
+	)
+	(fp_text user "-"
+		(at 5 0 0)
+		(layer "F.SilkS")
+		(uuid "5c936b3f-a806-4184-aaa4-5601549d1e45")
+		(effects
+			(font
+				(size 1.002614 1.002614)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -5 0 0)
+		(layer "F.SilkS")
+		(uuid "b8391aa0-d58c-4fb8-9f28-3ff4f9d36424")
+		(effects
+			(font
+				(size 1.003937 1.003937)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -3.25 0)
+		(size 1.408 1.408)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "73ef3d89-acb3-4e8e-9fc7-1df42b1dd4e4")
+	)
+	(pad "2" thru_hole circle
+		(at 3.25 0)
+		(size 1.408 1.408)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "fdc40428-9593-4d88-8f02-053f353ddebc")
+	)
+	(model "${KIPRJMOD}/lib/3dmodels/reck-audio.3dshapes/CEM-1206S.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,149 @@
+(footprint "CMA-4544PF-W"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.635215 -5.717015 0)
+		(layer "F.SilkS")
+		(uuid "00332be9-886d-42eb-a481-5b9f6f99415e")
+		(effects
+			(font
+				(size 1.000354 1.000354)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MIC_CMA-4544PF-W"
+		(at 6.35634 5.720735 0)
+		(layer "F.Fab")
+		(uuid "48343b0a-9257-4469-b8bf-34cc9d0cf4d6")
+		(effects
+			(font
+				(size 1.001 1.001)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12e148e6-9433-427d-bba8-24ca28ea5cfd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b9d10e9-9abe-43df-8eab-8a6f832f91c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "822b42b9-1113-4944-a4ea-77596de34513")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 4.85 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ba8918a1-f323-4cdd-abfc-efd215ffb779")
+	)
+	(fp_circle
+		(center 5.443 1.741)
+		(end 5.543 1.741)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "cb7349cf-c307-4f8a-b21e-514945f4f838")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "4cf6b528-2128-424f-b9c5-59db36cee029")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.85 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "399a862c-bf3c-470b-a243-211a3874f23f")
+	)
+	(fp_circle
+		(center 5.443 1.741)
+		(end 5.543 1.741)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "d1f5ed66-3999-4e6b-b4f6-9b03be71b869")
+	)
+	(pad "1" thru_hole rect
+		(at 2 1.27)
+		(size 1.378 1.378)
+		(drill 0.87)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "1003eebc-fe3b-4176-8505-e90dd15c2b5e")
+	)
+	(pad "2" thru_hole circle
+		(at 2 -1.27)
+		(size 1.378 1.378)
+		(drill 0.87)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "e4ffeaee-b398-4644-84e8-25adcc9993cc")
+	)
+	(model "${KIPRJMOD}/lib/3dmodels/reck-audio.3dshapes/CMA-4544PF-W.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
