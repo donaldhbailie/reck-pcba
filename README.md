@@ -21,3 +21,7 @@ Integrates a microcontroller, probe-able SPI, I2C, UART, motor drivers, servo dr
 - Servos (PWM Interface)
 - DC Brushed Motors (PWM Interface)
 - Chained LEDs (PWM Interface)
+
+## Schematic Preview
+![download](https://github.com/donaldhbailie/reck-pcba/assets/82545223/11302ccc-5081-4189-9ec6-7dd315f6f063)
+
