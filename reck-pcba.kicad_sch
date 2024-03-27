@@ -13290,9 +13290,9 @@
 		)
 		(uuid "4c117345-d4ed-41d1-bee0-23960a2354d9")
 	)
-	(text "IR LASER TOF SENSOR"
+	(text "IR TIME-OF-FLIGHT (TOF) SENSOR"
 		(exclude_from_sim no)
-		(at 505.46 238.76 0)
+		(at 495.3 238.76 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -13580,7 +13580,7 @@
 	)
 	(text "I2C Device - Address: 0x52"
 		(exclude_from_sim no)
-		(at 505.46 241.3 0)
+		(at 495.3 241.3 0)
 		(effects
 			(font
 				(size 1.524 1.524)
